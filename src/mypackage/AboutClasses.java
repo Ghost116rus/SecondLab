@@ -30,8 +30,11 @@ class SubClass extends SuperClass {// Подкласс (sub class)
 
 public class AboutClasses
 {
+
     public static void showHowItWorks()
     {
+        /*
+        Комментарий будет виден?*/
         // Создать объект суперкласса
         SuperClass supC= new SuperClass (5, true );
         System.out.println ("supC.x= "+ supC.x + " supC.b= " + supC.getB());

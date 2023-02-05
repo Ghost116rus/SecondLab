@@ -1,20 +1,24 @@
 import mypackage.AboutClasses;
 import WorksWithInterfaces.AboutInterfaces;
 import WhatAboutExceptions.MyExecptionsTry;
-// 000010011
-// 1 - В массиве число элементов меньше указанного
-// 2 - В строке отсутствует какой-то символ
-// 5 - Меньше, чем некоторое число
+import SecondLab.MainProgram;
+
+
+
 public class Main {
     public static void main(String[] args)
     {
-        //AboutClasses.showHowItWorks();
+        /* Второй пунк */
 
-        //AboutInterfaces.showHowItWorks();
+        AboutClasses.showHowItWorks();
 
-//        MyExecptionsTry.showHowItWorks();
-//        MyExecptionsTry.TestMyExc();
+        AboutInterfaces.showHowItWorks();
 
+        MyExecptionsTry.showHowItWorks();
+        MyExecptionsTry.TestMyExc();
+
+
+        System.out.println(MainProgram.process_sum(args));
 
     }
 }

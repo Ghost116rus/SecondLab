@@ -12,7 +12,8 @@ public class MyExecptionsTry
 
     private static void Func2() throws MyException
     {
-        int m = 0, n = 10;
+        int m = 0;
+        int n = 10;
         if((m/n) == 0) throw new MyException ();
 
         System.out.print ("Next");
